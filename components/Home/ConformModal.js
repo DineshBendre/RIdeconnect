@@ -74,7 +74,7 @@ export default function ConformModal({ setModalopen }) {
                 fontWeight: "bold",
               }}
             >
-              Conform Your Ride
+              Confirm Your Ride
             </Typography>
           </Grid>
           <Grid
@@ -93,7 +93,7 @@ export default function ConformModal({ setModalopen }) {
                 color: "grey",
               }}
             >
-              Are You Sure Wanted To Conform Your Ride With Us..
+              Are You Sure Wanted To Confirm Your Ride With Us..
             </Typography>
           </Grid>
 
@@ -113,7 +113,7 @@ export default function ConformModal({ setModalopen }) {
                 handleasendMail();
               }}
             >
-              Conform
+              Confirm
             </Button>
             <Button
               variant="outlined"

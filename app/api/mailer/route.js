@@ -5,8 +5,8 @@ export async function POST(req, context) {
   const mailsender = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "avdhoot2550@gmail.com",
-      pass: "ekeh ofrk yhyn klsn",
+      user: "fn146638@gmail.com",
+      pass: "vwqk bluj fqvh gauf",
     },
   });
   try {
@@ -14,7 +14,7 @@ export async function POST(req, context) {
     const { email, name } = await req.json();
 
     await mailsender.sendMail({
-      from: "avdhoot2550@gmail.com",
+      from: "fn146638@gmail.com",
       to: email,
       subject: "Your Taxi Confirmation (Booking # [MH14BP0051])",
       text: `Congratulations!${name} Your taxi is booked (Booking # [MH14BP0051]). Details inside. 
